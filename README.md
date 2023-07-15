@@ -13,7 +13,7 @@ Take Notes and Save the as .txt file using Python and PyQt5 Framework.
 #### Step 1: Create a Virtual Environment
 
 ```bash
-pip3 install virtualenv
+pip3 install venv
 cd ~/Dev
 mkdir notepad
 cd notepad
