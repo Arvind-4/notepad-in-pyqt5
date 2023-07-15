@@ -1,36 +1,43 @@
-
 # Notepad in Python
 
-Take Notes and Save the as .txt file using PyQt5
+Take Notes and Save the as .txt file using Python and PyQt5 Framework.
 
+### Demo:
 
-# How to Run this Locally
+![Demo of Notepad](https://raw.githubusercontent.com/Arvind-4/Notepad-in-PyQt5/main/.github/static/demo.gif)
 
-### Step 1: Create a Virtual Environment
+---
 
-```
-pip install virtualenv
-cd /path/to/folder
+### Running it Locally:
+
+#### Step 1: Create a Virtual Environment
+
+```bash
+pip3 install virtualenv
+cd ~/Dev
 mkdir notepad
 cd notepad
-virtualenv .
-source scripts/activate
+python3 -m venv .
+source bin/activate
 ```
+**For Windows us `.\Scripts\activate`**
 
-### Step 2: Clone Repository and Install Dependencies
+#### Step 2: Clone Repository:
 
-```
-cd /path/to/folder/notepad
-mkdir src
-cd src
+```bash
+cd ~/Dev/notepad
 git clone https://github.com/Arvind-4/Notepad-in-PyQt5.git .
+```
+
+#### Step 3: Install Requirements:
+
+```bash
 pip install -r requirements.txt
 ```
 
-### Step 3: Run the Code
+#### Step 4: Run the Code:
 
+```bash
+cd ~/Dev/notepad
+python src/main.py
 ```
-cd /path/to/folder/notepad/src
-python main.py
-```
-
