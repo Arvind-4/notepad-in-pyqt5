@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "notepad-in-pyqt5"
+version = "0.1.0"
+description = "Notepad in python using PyQt5"
+authors = ["Arvind A <pingarvindforquestions@gmail.com>"]
+license = "MIT LICENSE"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyqt5 = "5.15.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
